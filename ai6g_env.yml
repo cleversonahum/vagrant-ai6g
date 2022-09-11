@@ -1,0 +1,19 @@
+name: ai6g
+channels:
+  - conda-forge
+  - cogsci
+dependencies:
+  - bidict
+  - gym
+  - imageio
+  - matplotlib
+  - numpy
+  - pygame
+  - scikit-learn
+  - scipy
+  - seaborn
+  - stable-baselines3
+  - tensorflow
+  - jupyterlab
+  - pip:
+    - pyscreenshot
