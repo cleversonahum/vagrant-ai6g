@@ -68,5 +68,5 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
   config.vm.provision "init", type: "shell", path: "init.sh"
-  config.vm.provision "jupyter", type: "shell", path: "start_jupyter.sh"
+  config.vm.provision "jupyter", type: "shell", run: "always", path: "start_jupyter.sh"
 end
