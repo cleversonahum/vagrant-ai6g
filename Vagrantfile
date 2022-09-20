@@ -59,10 +59,10 @@ Vagrant.configure("2") do |config|
   #
   # View the documentation for the provider you are using for more
   # information on available options.
-  config.vm.provider "virtualbox" do |v|
+  config.vm.provider "virtualbox" do |vb|
     vb.gui = true
-    v.memory = 4096
-    v.cpus = 4
+    vb.memory = 4096
+    vb.cpus = 4
   end
 
   # Enable provisioning with a shell script. Additional provisioners such as
